@@ -1,1 +1,63 @@
 /* codigo css */
+html {height: 100%;width: 100%;}
+*{box-sizing: border-box;}
+
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    margin: auto;
+}
+header{
+    height: 75px; ;
+    display: flex;
+    background-color: #fcf4e6;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+#logo-estudiante{
+    height: 50px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.links{
+    align-items: right;
+    padding: 8px;
+    color: black;
+    margin: 10px;
+}
+
+footer{
+    
+    display: flex;
+    background-color: lightgray;
+    height: 50px;
+}
+#divPresentacion img{
+    height: auto;
+    width: 100%;
+    border: white 7px solid;
+    border-radius: 5%;
+    margin: 20px;
+}
+#divPresentacion h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: auto;
+    margin: 20px;
+}
+#divPresentacion{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background-color: #fffaf0;
+    color: black;
+}
