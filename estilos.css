@@ -31,7 +31,7 @@ h1{
     padding: 0px;
     font-size: 70px;
     text-align: center;
-    color: blanchedalmond;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
@@ -41,7 +41,7 @@ h2{
     padding: 0px;
     padding-top: 10px;
     text-align: center;
-    color: blanchedalmond;
+    color: white;
 }
 #logo-estudiante{
     height: 50px;
@@ -96,76 +96,76 @@ h2{
     height: 500px;
     width: 100%;
 }
-
-#seccionCursos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    background-image: url();
-}
-#seccionProyectos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    background-image: url();
-}
-
-.Cursos{
-    height: auto;
-    width: 98%;
-    height: auto;
-    background-color: blanchedalmond;
-    align-items: center;   
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-}
-
-.Cursos img{
-    height: auto;
-    width: auto;
-    border-radius: 5%;
-}
 hr{
-    border: 3px solid rgba(0, 0, 0, 0.548);
+    border: 3px solid rgb(51, 50, 50);
     width: 100%;
     margin: auto;
 }
 #seccionCarreraTecnica{
     justify-content: center;
     align-items: center;
-    height: 700px;
-    background-image: url(https://galatea.com/h/blog/wp-content/uploads/2025/01/dark-academia-aesthetic-and-fashion.webp);
+    height: 1250px;
+    background-image: url(https://www.ibackdrop.com/cdn/shop/products/GreenPhotographyBackgroundAbstractTexturedBackdropIBD-201207.jpg?v=1605693456);
 }
 #seccionCarreraTecnica h2{
-    font-family: sans-serif;
-    font-size: 30px;
-    height: 60px;
-    padding-top: 10px;
-}
-#seccionCarreraTecnica div{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(39, 38, 38) ;
     color: white;
-    padding-top: 20px;
+    font-family: helvetica;
+    justify-content: center;
+    padding-bottom: 10px;
 }
-.seccionProyectos{
+.Cursos{
     display: flex;
-    height: auto;
-    width: 98%;
-    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 32px;
+    height: 250px;
+    width: 96%;
     align-items: center;   
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+    margin: 40px;
+    margin-bottom: 20px;
 }
+.texto {
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+}
+.imagen img{
+    width: 230px; 
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+#CarreraUTN{
+    height: 550px;
+}
+#CarreraUTN .imagen img{
+    width: 500px; 
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+#seccionProyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url();
+    text-align: center;
+}
+
 .proyecto{
-    background-color: blanchedalmond;
+    background-color: rgb(49, 73, 26);
     border-radius: 10px;
-    margin: 10px;   
+    margin: 25px;   
+    width: 30%;
+    height: 90%;
     
 }
     
