@@ -1,21 +1,48 @@
 /* codigo css */
+
 html {height: 100%;width: 100%;}
 *{box-sizing: border-box;}
 
 
 body{
+    display: auto;
     font-family: sans-serif;
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     margin: auto;
 }
 header{
-    height: 75px; ;
+    color: rgb(255, 255, 255);
+    height: 75px; 
     display: flex;
-    background-color: #fcf4e6;
+    background-color: #2e2e2e;
     align-items: center;
     justify-content: space-between;   
 }
 
+#tituloPresentacion h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.541) ;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+    color: blanchedalmond;
+}
 #logo-estudiante{
     height: 50px;
     display: flex;
@@ -29,35 +56,121 @@ header{
 }
 
 .links{
+    color: white;
+    text-decoration: none;
     align-items: right;
     padding: 8px;
-    color: black;
     margin: 10px;
 }
-
-footer{
-    
-    display: flex;
-    background-color: lightgray;
-    height: 50px;
-}
 #divPresentacion img{
-    height: auto;
-    width: 100%;
-    border: white 7px solid;
+    height: 90%;
+    width: 50%;
+    border: #fffaf0bb 7px solid;
     border-radius: 5%;
     margin: 20px;
 }
-#divPresentacion h2{
+
+#divPresentacion p{
+    display: block;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: auto;
     margin: 20px;
 }
 #divPresentacion{
     display: flex;
-    align-items: center;
-    width: 40%;
-    background-color: #fffaf0;
+    height: 90%;
+    width: 95%;
+    background-color: blanchedalmond;
+    align-items: center;   
     color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+#seccionPresentacion{
+    background-image: url(https://images2.alphacoders.com/778/thumb-1920-77840.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+#seccionCursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url();
+}
+#seccionProyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url();
+}
+
+.Cursos{
+    height: auto;
+    width: 98%;
+    height: auto;
+    background-color: blanchedalmond;
+    align-items: center;   
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Cursos img{
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+}
+hr{
+    border: 3px solid rgba(0, 0, 0, 0.548);
+    width: 100%;
+    margin: auto;
+}
+#seccionCarreraTecnica{
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(https://galatea.com/h/blog/wp-content/uploads/2025/01/dark-academia-aesthetic-and-fashion.webp);
+}
+#seccionCarreraTecnica h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 10px;
+}
+#seccionCarreraTecnica div{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding-top: 20px;
+}
+.seccionProyectos{
+    display: flex;
+    height: auto;
+    width: 98%;
+    height: auto;
+    align-items: center;   
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.proyecto{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin: 10px;   
+    
+}
+    
+footer{        
+    display: flex;
+    background-color: lightgray;
+    height: 50px;
 }
