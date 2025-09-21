@@ -15,12 +15,13 @@
             <h3>Portfolio de Joaquin</h3>
         </div>
         <div >
-            <a href="" class="links">Sobre mi</a>
-            <a href="" class="links">Contacto</a>
-            <a href="" class="links">Proyectos</a>
+            <a href="#tituloSobremi" class="links">Sobre mi</a>
+            <a href="#seccionProyectos" class="links">Proyectos</a>
+            <a href="#Contacto" class="links">Contacto</a>
         </div>
        
     </header>
+    
     
     <section id="seccionPresentacion">
         <div id="tituloPresentacion">
@@ -31,7 +32,7 @@
        
     </section>
     <hr> 
-    <h2>🔥 Sobre mi 🔥</h2>
+    <h2 id="tituloSobremi">🔥 Sobre mi 🔥</h2>
     
     <div class="Cursos" id="DivGrande">
         <div class="texto">
@@ -83,39 +84,48 @@
     
     <section id="seccionProyectos">
         <div class="proyecto">
-            <h3>Juego Embaucado</h3>
+            <a href="https://github.com/RodriguezJoaquin1406/tp-2024" target="_blank">
+                <h3>Juego Embaucado C++</h3>
+            </a>
             <p>Juego en consola, hecho en c++ </p>
+            <img src="ImgEmbaucado.png" alt="fotoProyectoEmbaucado">
         </div>
         <div class="proyecto">
-            <h3>Sistema Gestor De Un Club</h3>
+            <a href="https://github.com/tomasherrlein/TPI-Progra2" target="_blank">
+                <h3>Sistema Gestor De Un Club C++</h3>
+            </a>
             <p>Gestion de un club desde consola en c++</p>
+            <img src="https://www.fdi.ucm.es/profesor/luis/fp/devtools/vs/10_consola_VS2010_9.png" alt="fotoGestionClub">
         </div>
         <div class="proyecto">
-            <h3>Mi Primer Winform</h3>
+            <a href="https://github.com/SanLape/tp-winform-Equipo-1A" target="_blank">
+                <h3>Mi Primer Winform C# .NET</h3>
+            </a>
             <p>Proyecto en el cual contribui</p>
+            <img src="ImgWinform.png" alt="fotoPrimerWinform">
         </div>
     </section>
     
 
 
-<footer class="footer">
-  <div class="footer-contact">
+<footer id="Contacto">
+  <div class="footerContacto">
     <p>joaquinr.erti@gmail</p>
     <button class="btnCopiar" onclick="copiarMail()">Copiar Mail</button>
     <p>+54 11 2659-6891</p>
-    <button class="btnCopiar" onclick="copiarTexto()">Copiar Numero</button>
+    <button class="btnCopiar" onclick="copiarNumero()">Copiar Numero</button>
   </div>
   <div class="footer-social">
-    <a href="https://www.linkedin.com/in/joaquin-mateo-rodriguez/" target="_blank" aria-label="LinkedIn">
+    <a href="https://www.linkedin.com/in/joaquin-mateo-rodriguez/" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
     </a>
-    <a href="https://www.instagram.com/erti.jo/" target="_blank" aria-label="Instagram">
+    <a href="https://www.instagram.com/erti.jo/" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
     </a>
-    <a href="https://github.com/RodriguezJoaquin1406" target="_blank" aria-label="GitHub">
+    <a href="https://github.com/RodriguezJoaquin1406" target="_blank" >
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" />
     </a>
-    <a href="https://discord.com/users/erti4" target="_blank" aria-label="Discord">
+    <a href="https://discord.com/users/erti4" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" />
     </a>
   </div>
